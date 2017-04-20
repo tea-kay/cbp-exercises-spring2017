@@ -1,0 +1,59 @@
+/*
+h1 {
+    color: blue;
+}
+a {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+#biography {
+    background-color: #6291db;
+}
+p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+table > thead {
+    background-color: orange;
+} 
+td:hover {
+    color: white;
+}
+table[border="1"] {
+    border-color: red;
+}
+*/
+
+p.red {
+    background-color: red;
+}
+p.green {
+    background-color: green;
+}
+p.blue {
+    background-color: blue;
+}
+p.red a,
+p.green a {
+    color: white;
+}
+p.blue a {
+    color: yellow;
+}
+ul li.seen {
+    color: silver;
+}
+ul li.unseen {
+    color: red;
+}
+ul li.seen.good {
+    color: green;
+}
+h1, h2 {
+    text-decoration: underline;
+}
+h1:hover, 
+h2:hover {
+    text-decoration: none;
+}
