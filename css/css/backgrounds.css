@@ -1,7 +1,8 @@
 #outer {
-    width 80%;
+    width: 80%;
     min-height: 80vh;
-    margin: 0 auto;
+    margin: auto;
+    margin-top:10vh;
     background: linear-gradient(#F46629 0%, #EAAA2A 45%, #47AEB7 70%, #23538A 100%);
 }
 #inner {
@@ -15,7 +16,7 @@
     height: 200px;
     border: 1px solid white;
     background-image: url('../../html/img/smiley.png');
-    background-size: 50%;
+    background-size: 50% auto;
     background-position: center center;
     margin: 0 auto;
 
@@ -28,4 +29,8 @@
     background-position: left top;
     background-size: cover;
     background-attachment: fixed;
+    height: 600px;
+    box-sizing: border-box;
+
+    background: transparent url('../../html/img/nebula.png') left top/cover no repeat fixed;
 }
