@@ -1,0 +1,23 @@
+@-ms-viewport { 
+    width: device-width; 
+}
+@media only screen and (min-width: 400px) {
+    body {
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: red;
+    }
+}
+main {
+    width: 100%;
+    max-width: 730px;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+

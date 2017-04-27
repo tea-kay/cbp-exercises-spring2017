@@ -313,6 +313,7 @@
 }
 #flex-basis .item {
     flex-basis: 20%;
+    margin: 0 auto;
 }
 #flex-basis .item1 {
     flex-basis: 4em;
@@ -324,6 +325,7 @@
 }
 #flex-flex .item {
     flex: 1 1;
+    margin: auto 0;
 }
 #flex-flex .item1 {
 }
@@ -351,4 +353,7 @@
 #align-self .item4 {
     align-self: flex-end;
 
+}
+#align-self .item5 {
+    margin: auto;
 }
