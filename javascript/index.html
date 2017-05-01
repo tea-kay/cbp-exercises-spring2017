@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Javascript</title>
-    <script src="js/script.js" charset-"utf=-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/script.css">
 </head>
 <body>
-    <button onclick="console.log('Hello world');">Click me!</button>
-    <script>
-        console.log("Hello, world");
-    </script>
+    <div id="message">Nothing to report.</div>
+
+    <button id="the-button" onclick="changeTheMessage()">Click me!</button>
+    
+    <button id="counter-button" onclick="increaseCounter()"><div id="counter-button">This element was clicked 0 times</div></button>
+
+    <script src="js/script2.js" charset-"utf=-8"></script>
 </body>
 </html>

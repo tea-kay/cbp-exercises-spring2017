@@ -1,0 +1,10 @@
+body {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 10em;
+    font-family: Open sans-serif;
+}
+
+button {
+    background-color: white;
+}
