@@ -1,5 +1,8 @@
-<?= include 'html-start.php'; ?>    
-<?= include 'header.php'; ?>
+<?php include 'html_start.php'; ?>    
+<?php include 'header.php'; ?>
+<?php require 'functions.php'; ?>
+
+<?php get_current_year() ?>
 
     <div class="main">
         <h1>Sub page</h1>
@@ -11,6 +14,6 @@
         <p>Sunt non laborum esse eiusmod anim irure. Adipisicing labore ex voluptate et magna reprehenderit. Fugiat minim magna non voluptate. Deserunt enim reprehenderit id mollit veniam ipsum.</p>
     </div>
 
-    <?= include 'footer.php'; ?>
+    <?php include 'footer.php'; ?>
 
-<?= include 'html-end.php'; ?>
+<?php include 'html-end.php'; ?>
