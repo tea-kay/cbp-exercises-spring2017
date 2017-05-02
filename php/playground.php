@@ -94,5 +94,15 @@
 
         echo odd_or_even(9877);
     ?>
+    <hr>
+    <?php
+        if ($height > 180) {
+            echo 'tall';
+        } elseif ($height < 180 && $height > 160) {
+            echo 'average';
+        } else {
+            echo 'small';
+        };
+    ?>
 </body>
 </html>
