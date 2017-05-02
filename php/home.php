@@ -2,7 +2,7 @@
 <?php include 'header.php'; ?>
 <?php require 'functions.php'; ?>
 
-<?php get_current_year() ?>
+<?php echo get_current_year() ?>
 
     <div class="main">
         <h1>Sub page</h1>
