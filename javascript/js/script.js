@@ -23,4 +23,11 @@ function print_type (input) {
     console.log("The type of " + input + " is a " + type)
 }
 
-print_type(game)
+print_type()
+
+function get_type() {
+    type = typeof value;
+    return type;
+}
+
+get_type("123");
