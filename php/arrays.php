@@ -54,3 +54,6 @@ foreach($cars_i_want as $index => $car)
 echo '</ul>';
 
 ?>
+
+echo '<hr><h2>Colors</h2>';
+
