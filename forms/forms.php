@@ -7,8 +7,21 @@
     <title>Forms</title>
 </head>
 <body>
-    <form>
-    
+    <form action="submit.php" method="get">
+        Firstname: 
+        <input type="text" name="firstname" placeholder="Firstname">
+        <br>
+        Lastname: 
+        <input type="text" name="lastname" placeholder="Lastname">
+        <br>
+        Hungry?
+        <input type="checkbox" value="hungry" checked>
+        <br>
+        Food: 
+        <input type="radio" name="food" value="pizza"> Pizza
+        <input type="radio" name="food" value="beer"> Beers
+        <br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
